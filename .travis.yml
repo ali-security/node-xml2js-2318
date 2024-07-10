@@ -5,8 +5,7 @@ node_js:
   - "0.12"
   - "4.0"
   - "4.1"
-  - iojs
-
-after_success: npm run coveralls
+after_success: npm run test
 
 sudo: false
+dist: precise
